@@ -8,6 +8,7 @@
 *.pyw 		text
 *.pyx  		text
 
+*.py linguist-language=Python
 # Binary files
 # ============
 *.db		binary
