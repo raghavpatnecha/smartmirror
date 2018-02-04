@@ -1,3 +1,2 @@
-static/* linguist-vendored
-
-*.c linguist-language= Javascript
+* linguist-vendored
+*.py linguist-vendored=false
