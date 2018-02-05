@@ -1,5 +1,5 @@
-# AI-Smart-Mirror
-Smart Mirror with a smart AI 🤖
+# Smart-Mirror-AI
+Smart Mirror AI 🤖
 
 Watch the video on here:
 https://www.youtube.com/watch?v=FZ486L4r7Bs&t=69s
@@ -9,56 +9,20 @@ https://www.youtube.com/watch?v=FZ486L4r7Bs&t=69s
 ## Open Source
 
 1) [MichMich MagicMirror](https://magicmirror.builders/)
+2) Follow the guide on [HackerHouseYT](https://github.com/HackerHouseYT/AI-Smart-Mirror) for basic setup. 
 
 ### Code Requirements
 The example code is in Python ([version 2.7](https://www.python.org/download/releases/2.7/) or higher will work). 
 
-1) import speechrecognition
-2) import gtts
-3) import py4j
-4) import python-dateutil
-5) import pydub
-6) import feedparser
-7) import numpy
 
-# Setup Guide
+ Copy the folders in `smartmirror/magic_mirror` to `MagicMirror` respective folders.
 
-## Magic Mirror
-Download the stable version of Node.js: 
-https://nodejs.org/en/
-
-Clone the latest MagicMirror code from:
-https://github.com/MichMich/MagicMirror
-
-Navigate inside the MagicMirror folder
-```shell
-cd MagicMirror
-```
-
-Install MagicMirror dependencies
-```shell
-sudo npm install
-```
- 
-Verify it starts
-```shell
-npm start
-```
- 
- 
-Clone this repository (AI Smart Mirror)
-```shell
-git clone git@github.com:akshaybahadur21/Smart_Mirror.git
-```
-
-Copy the folders in `Smart_Mirror/magic_mirror` to `MagicMirror/modules`
-
-Copy the `config.js` file in `Smart_Mirror/magic_mirror` to `MagicMirror/config`
- 
 ## AI
  
 We are using [wit.ai](https://wit.ai/) for generating intents out of the text.
 You need to generate an access id using which, you can send GET requests to get intents.
+Upload the ```wit_training_data.zip``` to wit.ai
+Once you upload this data to wit.ai you can use the commands given below. You can also add your own custom commands to wit.ai.
 
 ## Weather
 
@@ -102,30 +66,11 @@ You can view the list of available restaurants in a region.
 ## SoundHound
 
 For various other tasks, we have used soundhound's api. The soundhound service is quite effective and fast. Operations that could be done using soundhound:
-1) Solving Mathematical equations
-2) Stock Market
-3) Hotel Enquiries.
+1) Solving Mathematical equations. What are the roots for x^2-x+1
+2) Stock Market :What are the stock prices and market cap of Google, Apple and Microsoft.
+3) Hotel Enquiries : Can you show me hotels in New York that have a swimming pool for next Monday?
+4) Wikipedia : Who's Sachine Tendulkar?
 
-### What are the roots for x^2-x+1
-### What are the stock prices and market cap of Google, Apple and Microsoft.
-### Can you show me hotels in New York that have a swimming pool for next Monday?
-### Who's Sachine Tendulkar?
-
-# Commands that you could use on the mirror
-
-1) Can you play me a video of Eminem?
-2) Can you book me an uber pool/go from Vimaan Nagar to Baner?
-3) Can you show me restaurants in Pune?
-4) Can you show me the latest news?
-5) Can you show me the weather forecast?
-6) Can you show me map of India?
-7) Can you tell me a joke?
-8) How do I look?
-9) Show me your face.
-10) What are the roots for x^2-x+1
-11) What are the stock prices and market cap of Google, Apple and Microsoft.
-12) Can you show me hotels in New York that have a swimming pool for next Monday?
-13) Who's Sachine Tendulkar?
 
 ## API
 
@@ -133,37 +78,25 @@ Different APIs have been used for different services. You are required to create
 You have to place the keys in the code.
 The instructions for the same are given in the code.
 
-### There are some easter eggs which you guys can find out and let us know in the forum.
 
 # Starting Up
  
-Navigate to the AI-Smart-Mirror folder
+Navigate to the smartmirror folder
 ```shell
-cd AI-Smart-Mirror
+cd smartmirror
 ```
 
 Make sure MagicMirror is running, then start the AI
 ```shell
 python bot.py
 ```
-
-## Setup Facial Recognition
-[Refer to this guide](http://opencv-python-tutroals.readthedocs.io/en/latest/)
-
-Install openCV with 
-```shell
-pip install cv2
-```
-
-Start the app
-```shell
-python bot.py
-```
+# Contribute
+Feel free to contribute.Although I have tried to added most of the apis including youtube,uber,zomato,hound but I would appreciate if someone add a spotify or soundcloud api for music player integration. Also, if someone could add a pause & play command for the youtube videos.
 
 ## Working Example
 
 <img src="https://github.com/akshaybahadur21/Smart_Mirror/blob/master/smart_mirror.gif">
 
 
-# Code shall be uploaded once the test phase is completed
+
  
