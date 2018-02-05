@@ -6,6 +6,9 @@
 
 4) The wit traing data also contains command for hide and show modules. Module names are already there in ```aiclient/ModuleNames.json```.You 
    can also add your own module name.
+                                            
+                                            ### OR
+        You can direct clone it from [here](https://github.com/raghavpatnecha/MagicMirror.git). I have already replaced the folders so you         just need to install the AI.                                    
    
    ### Example command for opening and closing module.
    1) Can you open the bitcoin module.
