@@ -71,6 +71,11 @@ For various other tasks, we have used soundhound's api. The soundhound service i
 3) Hotel Enquiries : Can you show me hotels in New York that have a swimming pool for next Monday?
 4) Wikipedia : Who's Sachine Tendulkar?
 
+## Open and Close Module.
+   ### Example command for opening and closing module.
+   1) Can you open the bitcoin module.
+   2) Can you close the mail module.
+
 
 ## API
 
