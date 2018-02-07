@@ -21,7 +21,7 @@ The example code is in Python ([version 2.7](https://www.python.org/download/rel
  
 We are using [wit.ai](https://wit.ai/) for generating intents out of the text.
 You need to generate an access id using which, you can send GET requests to get intents.
-Upload the ```wit_training_data.zip``` to wit.ai
+Upload the ```models/Smart-Mirror.zip``` to wit.ai
 Once you upload this data to wit.ai you can use the commands given below. You can also add your own custom commands to wit.ai.
 
 ## Weather
